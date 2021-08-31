@@ -33,8 +33,8 @@ FILE_INTERFACES="/etc/network/interfaces"
 FILE_NM_CONF="/etc/NetworkManager/NetworkManager.conf"
 FILE_NM_CONNECTION="/etc/NetworkManager/system-connections/default"
 
-URL_RAW_BASE="https://raw.githubusercontent.com/home-assistant/supervised-installer/master/files"
-URL_VERSION="https://version.home-assistant.io/stable.json"
+URL_RAW_BASE="https://kgdqqq.github.io/supervised-installer/files"
+URL_VERSION="https://kgdqqq.github.io/supervised-installer/stable.json"
 URL_BIN_APPARMOR="${URL_RAW_BASE}/hassio-apparmor"
 URL_BIN_HASSIO="${URL_RAW_BASE}/hassio-supervisor"
 URL_DOCKER_DAEMON="${URL_RAW_BASE}/docker_daemon.json"
@@ -44,7 +44,7 @@ URL_NM_CONF="${URL_RAW_BASE}/NetworkManager.conf"
 URL_NM_CONNECTION="${URL_RAW_BASE}/system-connection-default"
 URL_SERVICE_APPARMOR="${URL_RAW_BASE}/hassio-apparmor.service"
 URL_SERVICE_HASSIO="${URL_RAW_BASE}/hassio-supervisor.service"
-URL_APPARMOR_PROFILE="https://version.home-assistant.io/apparmor.txt"
+URL_APPARMOR_PROFILE="https://kgdqqq.github.io/supervised-installer/apparmor.txt"
 
 # Check env
 command -v systemctl > /dev/null 2>&1 || MISSING_PACKAGES+=("systemd")
